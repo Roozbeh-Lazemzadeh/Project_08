@@ -17,7 +17,7 @@ export default function HappyCouples() {
 				<div className="gallery_cards">
 					<div className="gallery_section_card">
 						<div className="gallery_section_main">
-							<img src="./src/assets/img/img-1.png" />
+							<img src="public/img/img-1.png" />
 							<h4 className="jony_text">JONY AND JONILI</h4>
 							<p className="some_text">
 								There are many variations of passages of Lorem Ipsum available,
@@ -33,7 +33,7 @@ export default function HappyCouples() {
 
 					<div className="two-three-wrap gallery_section_card ">
 						<div className="gallery_section_main_two">
-							<img src="./src/assets/img/img-2.png" />
+							<img src="public/img/img-2.png" />
 							<h4 className="jony_text">JONY AND JONILI</h4>
 							<p className="some_text">
 								There are many variations of passages of Lorem Ipsum available,
@@ -47,7 +47,7 @@ export default function HappyCouples() {
 						</div>
 
 						<div className="gallery_section_main_three">
-							<img src="./src/assets/img/img-3.png" />
+							<img src="public/img/img-3.png" />
 							<h4 className="jony_text">JONY AND JONILI</h4>
 							<p className="some_text">
 								There are many variations of passages of Lorem Ipsum available,
@@ -63,7 +63,7 @@ export default function HappyCouples() {
 
 					<div className="gallery_section_card">
 						<div className="gallery_section_main">
-							<img src="./src/assets/img/img-4.png" />
+							<img src="public/img/img-4.png" />
 							<h4 className="jony_text">JONY AND JONILI</h4>
 							<p className="some_text">
 								There are many variations of passages of Lorem Ipsum available,

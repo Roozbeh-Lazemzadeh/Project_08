@@ -40,7 +40,7 @@ export default function Contact() {
 					</div>
 					<div className="photo_inner">
 						<div className="champage_img">
-							<img src="./src/assets/img/champage-img.png" />
+							<img src="public/img/champage-img.png" />
 						</div>
 						<h2 className="enjoy_text">
 							Enjoy <br />

@@ -8,7 +8,7 @@ export default function Header() {
 		<>
 			<div className="mobile_devices_header">
 				<a className="navbar-brand_mobile" href="index.html">
-					<img src="./src/assets/img/logo.png" />
+					<img src="public/img/logo.png" />
 				</a>
 
 				<button className="navbar-mobile" type="button">
@@ -19,7 +19,7 @@ export default function Header() {
 			<div className="banner-content">
 				<div className="banner_section_left">
 					<a className="navbar-brand" href="index.html">
-						<img src="./src/assets/img/logo.png" />
+						<img src="public/img/logo.png" />
 					</a>
 
 					<NavigationList />
@@ -32,13 +32,13 @@ export default function Header() {
 						<div className="hidden"></div>
 
 						<div className="login_icon">
-							<img src="./src/assets/img/user-icon.png" />
+							<img src="public/img/user-icon.png" />
 							<span className="span-login">
 								<a href="#">Login</a>
 							</span>
 						</div>
 						<div className="search_icon">
-							<img src="./src/assets/img/search-icon.png" />
+							<img src="public/img/search-icon.png" />
 						</div>
 					</nav>
 

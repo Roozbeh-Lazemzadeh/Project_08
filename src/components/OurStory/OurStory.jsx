@@ -27,7 +27,7 @@ export default function OurStory() {
 				</div>
 
 				<div className="story_img">
-					<img src="./src/assets/img/story-img.png" alt="" />
+					<img src="public/img/story-img.png" alt="" />
 				</div>
 			</div>
 		</>

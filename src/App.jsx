@@ -11,7 +11,7 @@ function App() {
 			<Header />
 
 			<AboutUs
-				imgSrc="./src/assets/img/about-img.png"
+				imgSrc="public/img/about-img.png"
 				text="If you are going to use a passage of Lorem Ipsum, you need to be
 						sure there isn't anything embarrassing hidden in the middle of text.
 						All theIf you are going to use a passage of Lorem Ipsum, you need to
