@@ -1,4 +1,5 @@
 import React from "react";
+import champage_img from "/img/champage-img.png";
 
 export default function Contact() {
 	return (
@@ -40,11 +41,11 @@ export default function Contact() {
 					</div>
 					<div className="photo_inner">
 						<div className="champage_img">
-							<img src="public/img/champage-img.png" />
+							<img src={champage_img} />
 						</div>
 						<h2 className="enjoy_text">
 							Enjoy <br />
-							Marriage{" "}
+							Marriage
 						</h2>
 					</div>
 				</div>

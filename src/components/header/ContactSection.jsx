@@ -1,13 +1,15 @@
 import React from "react";
+import call_icon from "/img/call-icon.png";
+import mail_icon from "/img/mail-icon.png";
 
 export default function ContactSection() {
 	const contactObj = [
 		{
-			imgSrc: "./src/assets/img/call-icon.png",
+			imgSrc: call_icon,
 			spanName: "Call +01 1234567890",
 		},
 		{
-			imgSrc: "./src/assets/img/mail-icon.png",
+			imgSrc: mail_icon,
 			spanName: "demo@gmail.com",
 		},
 	];

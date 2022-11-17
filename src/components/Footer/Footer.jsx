@@ -1,4 +1,8 @@
 import React from "react";
+import footer_logo from "/img/footer-logo.png";
+import map_icon from "/img/map-icon.png";
+import call_icon from "/img/call-icon.png";
+import mail_icon from "/img/mail-icon.png";
 
 export default function Footer() {
 	return (
@@ -6,7 +10,7 @@ export default function Footer() {
 			<div className="footer_section">
 				<div className="footer_logo">
 					<a href="index.html">
-						<img src="public/img/footer-logo.png" />
+						<img src={footer_logo} />
 					</a>
 				</div>
 				<h1 className="contact_text">
@@ -16,19 +20,19 @@ export default function Footer() {
 					<ul className="contact_main_ul">
 						<li>
 							<a href="index.html">
-								<img src="public/img/map-icon.png" />
+								<img src={map_icon} />
 								<span className="padding_sides">Location</span>
 							</a>
 						</li>
 						<li>
 							<a href="index.html">
-								<img src="public/img/call-icon.png" />
+								<img src={call_icon} />
 								<span className="padding_sides">Call +01 1234567890</span>
 							</a>
 						</li>
 						<li id="last_child">
 							<a href="index.html">
-								<img src="public/img/mail-icon.png" />
+								<img src={mail_icon} />
 								<span className="padding_sides">demo@gmail.com</span>
 							</a>
 						</li>

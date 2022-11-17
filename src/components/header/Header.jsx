@@ -2,13 +2,17 @@ import React from "react";
 import ContactSection from "./ContactSection";
 import NavigationList from "./NavigationList";
 import SocialIcons from "./SocialIcons";
+import logo from "/img/logo.png";
+import user_icon from "/img/user-icon.png";
+import search_icon from "/img/search-icon.png";
+import background from "/img/banner-bg.png";
 
 export default function Header() {
 	return (
 		<>
 			<div className="mobile_devices_header">
 				<a className="navbar-brand_mobile" href="index.html">
-					<img src="public/img/logo.png" />
+					<img src={logo} />
 				</a>
 
 				<button className="navbar-mobile" type="button">
@@ -19,7 +23,7 @@ export default function Header() {
 			<div className="banner-content">
 				<div className="banner_section_left">
 					<a className="navbar-brand" href="index.html">
-						<img src="public/img/logo.png" />
+						<img src={logo} />
 					</a>
 
 					<NavigationList />
@@ -27,18 +31,23 @@ export default function Header() {
 					<SocialIcons />
 				</div>
 
-				<div className="banner_section_right">
+				<div
+					className="banner_section_right"
+					style={{
+						backgroundImage: `url(${background})`,
+					}}
+				>
 					<nav className="navbar">
 						<div className="hidden"></div>
 
 						<div className="login_icon">
-							<img src="public/img/user-icon.png" />
+							<img src={user_icon} />
 							<span className="span-login">
 								<a href="#">Login</a>
 							</span>
 						</div>
 						<div className="search_icon">
-							<img src="public/img/search-icon.png" />
+							<img src={search_icon} />
 						</div>
 					</nav>
 

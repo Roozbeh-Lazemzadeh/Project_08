@@ -1,3 +1,4 @@
+import story_img from "/img/story-img.png";
 export default function OurStory() {
 	return (
 		<>
@@ -26,9 +27,10 @@ export default function OurStory() {
 					</div>
 				</div>
 
-				<div className="story_img">
-					<img src="public/img/story-img.png" alt="" />
-				</div>
+				<div
+					className="story_img"
+					style={{ backgroundImage: `url(${story_img})` }}
+				></div>
 			</div>
 		</>
 	);

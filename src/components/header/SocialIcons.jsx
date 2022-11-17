@@ -1,15 +1,18 @@
 import React from "react";
+import fb_icon from "/img/fb-icon.png";
+import twitter_icon from "/img/twitter-icon.png";
+import linkedin_icon from "/img/linkedin-icon.png";
 
 export default function SocialIcons() {
 	const socialObj = [
 		{
-			imgSrc: "./src/assets/img/fb-icon.png",
+			imgSrc: fb_icon,
 		},
 		{
-			imgSrc: "./src/assets/img/twitter-icon.png",
+			imgSrc: twitter_icon,
 		},
 		{
-			imgSrc: "./src/assets/img/linkedin-icon.png",
+			imgSrc: linkedin_icon,
 		},
 	];
 	return (
@@ -28,14 +31,3 @@ export default function SocialIcons() {
 		</div>
 	);
 }
-
-// <li>
-// 	<a href="index.html">
-// 		<img src="./src/assets/img/twitter-icon.png" />
-// 	</a>
-// </li>
-// <li>
-// 	<a href="index.html">
-// 		<img src="./src/assets/img/linkedin-icon.png" />
-// 	</a>
-// </li>

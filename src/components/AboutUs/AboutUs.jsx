@@ -1,4 +1,5 @@
 import React from "react";
+import bg_icon from "/img/bg-icon.png";
 
 export default function AboutUs({ imgSrc, text }) {
 	return (

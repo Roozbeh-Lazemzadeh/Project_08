@@ -1,4 +1,8 @@
 import React from "react";
+import img_1 from "/img/img-1.png";
+import img_2 from "/img/img-2.png";
+import img_3 from "/img/img-3.png";
+import img_4 from "/img/img-4.png";
 
 export default function HappyCouples() {
 	return (
@@ -17,7 +21,7 @@ export default function HappyCouples() {
 				<div className="gallery_cards">
 					<div className="gallery_section_card">
 						<div className="gallery_section_main">
-							<img src="public/img/img-1.png" />
+							<img src={img_1} />
 							<h4 className="jony_text">JONY AND JONILI</h4>
 							<p className="some_text">
 								There are many variations of passages of Lorem Ipsum available,
@@ -33,7 +37,7 @@ export default function HappyCouples() {
 
 					<div className="two-three-wrap gallery_section_card ">
 						<div className="gallery_section_main_two">
-							<img src="public/img/img-2.png" />
+							<img src={img_2} />
 							<h4 className="jony_text">JONY AND JONILI</h4>
 							<p className="some_text">
 								There are many variations of passages of Lorem Ipsum available,
@@ -47,7 +51,7 @@ export default function HappyCouples() {
 						</div>
 
 						<div className="gallery_section_main_three">
-							<img src="public/img/img-3.png" />
+							<img src={img_3} />
 							<h4 className="jony_text">JONY AND JONILI</h4>
 							<p className="some_text">
 								There are many variations of passages of Lorem Ipsum available,
@@ -63,7 +67,7 @@ export default function HappyCouples() {
 
 					<div className="gallery_section_card">
 						<div className="gallery_section_main">
-							<img src="public/img/img-4.png" />
+							<img src={img_4} />
 							<h4 className="jony_text">JONY AND JONILI</h4>
 							<p className="some_text">
 								There are many variations of passages of Lorem Ipsum available,
